@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap tutorial</title>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <style>
+      #navbar {
+        background-color: #013220;
+      }
+      #hero{
+        color: #013220;
+      }
+      #abt{
+        text-align: justify;
+        font-size: 20px;
+      }
+      .nav-link {
+        color: whitesmoke;
+      }
+      #hero_logo{
+        width: 100%;
+        height: 100%;
+      }
+      img{
+        width:100px;
+        height:100px;
+      }
+      p{
+        text-align: justify;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Learning #1  -->
+
+    <!-- nav bar -->
+    <section>
+      <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="navbar-brand text-white-50 p-3">
+          CODESH-ACADEMY
+        </div>
+        <div class="container">
+          <div
+            class="collaps navbar-collapse d-flex justify-content-end align-content-center"
+            id="navbarNav">
+            <ul class="navbar-nav  fst-normal align-items-center">
+              <li>
+                <a href="#main" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#courses" class="nav-link">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a href="#testimony" class="nav-link">Testimony</a>
+              </li>
+              <li class="nav-item">
+                <div class="btn btn-dark nav-link" data-bs-toggle="modal"
+                  data-bs-target="#signup">Sign up</div>
+
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!-- main -->
+    <section id="main" class="py-5 m-auto w-75">
+      <div class="container  m-auto mt-5">
+        <div class="row row-cols-2  justify-content-evenly align-content-center
+        align-items-center">
+          <div class="col">
+            <p class="display-4 text-wrap text-start " id="hero">What we do @
+              Codesh-Academy</p>
+            <p id="abt">Codesh- Academy is a Tech community that focus on
+              training and individual on
+              web development, Graphic-Design e.t.c and development of website,
+              and webapp
+              respectfully.
+            </p>
+          </div>
+          <div class="col">
+            <img src="hero_logo.jpeg" alt="hero-logo" class=" mx-auto d-block"
+              id="hero_logo">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- courses -->
+    <section class="box w-75 m-auto" id="courses">
+      <h1 class="text-center text-bg-light lead display-4">Courses:</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-head text-bg-dark text-center p-3 display-6">
+                <p>HTML</p>
+              </div>
+              <div class="card-body h-50">
+                <img src="html.png" alt="html" class="img-fluid">
+                <p>Duration: 3months/6months</p>
+                <p>Price: $20:00</p>
+                <div class="btn mx-auto d-block text-bg-primary display-4">
+                  Enroll
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card  h-10">
+              <div class="card-head text-bg-dark text-center p-3 display-6">
+                <p>CSS</p>
+              </div>
+              <div class="card-body">
+                <img src="css.png" alt="css"
+                  class="img-fluid display-6 h-25 m-auto">
+                <p>Duration: 3months/6months</p>
+                <p>Price: $40:00</p>
+                <div class="btn mx-auto d-block text-bg-primary display-4">
+                  Enroll
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <div class="card-head text-bg-dark text-center p-3 display-6">
+                <p>JavaScript</p>
+              </div>
+              <div class="card-body h-50">
+                <img src="js.jpeg" alt="JavaScript" class="img-fluid ">
+                <p>Duration: 3months/6months</p>
+                <p>Price: $60:00</p>
+                <div
+                  class="btn mx-auto d-block text-bg-primary display-4 sticky-bottom">
+                  Enroll
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimony -->
+    <section id="testimony">
+      <div class="container text-bg-success-subtle mt-5 m-auto  p-3">
+        <div class="row row-cols-1 m-auto d-flex align-self-auto p-3 ">
+          <div class="lead text-center display-3">Testimony</div>
+          <div class="col    m-auto p-1 d-inline-flex">
+            <img src="user1.jpeg" alt="user1" class="img-thumbnail">
+            <div class="card w-75  p-2 m-auto">
+              <p class="fst-italic fw-medium">username: @Auwal</p>
+              <p class="text">codesh-academy made website development easier for
+                me.
+                It mode of training is steadily. Awesome✅!</p>
+            </div>
+          </div>
+          <div class="col    m-auto p-1 d-inline-flex  mt-2">
+            <img src="user2.jpeg" alt="user2" class="img-thumbnail">
+            <div class="card w-75 p-2 m-auto">
+              <p class="fst-italic fw-medium">username:@ismail</p>
+              <p>codesh-academy is the best. I enjoy my training in their
+                community ❤❤🤍</p>
+
+            </div>
+          </div>
+          <div class="col   m-auto p-1 d-inline-flex mt-2">
+            <img src="user3.png" alt="user3" class="img-thumbnail">
+            <div class="card w-75 p-2 m-auto">
+              <p class="fst-italic fw-medium">username:@msheriff</p>
+              <p>If I am to rate codesh-academy. I will rate them rate 5✨.
+                Tutor Sheriffdeen is very brilliant thanks for your method of
+                teaching.
+              </p>
+
+            </div>
+          </div>
+          <div class="col   m-auto p-1 d-inline-flex mt-2">
+            <img src="user4.jpeg" alt="user4" class="img-thumbnail">
+            <div class="card w-75 p-2 m-auto">
+              <p class="fst-italic fw-medium">username: @temitayo</p>
+              <p>What are you waiting for? if you are not doing your training
+                width
+                codesh-academy you are missing out. I love codesh-academy
+                community
+              </p>
+            </div>
+          </div>
+          <div class="col   m-auto p-1 d-inline-flex mt-2">
+            <img src="user5.jpeg" alt="user5" class="img-thumbnail">
+            <div class="card w-75 p-2 m-auto">
+              <p class="fst-italic fw-medium">username: @pbat</p>
+              <p>codesh-academy is the best</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="modal" id="signup">
+        <div class="modal-dialog def mt-auto p-3">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title lead display-6">Sign up</h2>
+              <div type="button" class=" btn btn-close " data-bs-dismiss='modal'
+                arial-label="close"></div>
+            </div>
+            <div class="modal-body mt-auto d-flex">
+              <div class="form">
+                <div class="input">
+                  <input type="text" placeholder="first Name">
+                  <input type="text" placeholder="Last Name">
+                  <input type="text"
+                    placeholder="What course or courses are you registering for?">
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer btn">
+              <div class="btn" data-bs-dismiss="modal">close</div>
+              <div class="btn btn-primary">Create Account</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <script src="bootstrap.bundle.js"></script>
+  </body>
+</html>
